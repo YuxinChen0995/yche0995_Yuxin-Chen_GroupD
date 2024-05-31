@@ -458,8 +458,7 @@ function setup() {
           centerCircleColors: [color(255, 128, 0), color(255, 255, 255), color(0, 0, 0)],
           centerCircleSizes: [40, 30, 20]
         },
-        //
-                //
+        
         {
           x: 640, y: 250, size: 25, color: color(218, 243, 229),
           dotCounts: [0],
@@ -503,7 +502,7 @@ function setup() {
           centerCircleColors: [color(255, 128, 0), color(255, 255, 255), color(0, 0, 0)],
           centerCircleSizes: [40, 30, 20]
         },
-        //
+       
         {
           x: 170, y: 370, size: 25, color: color(218, 243, 229),
           dotCounts: [0],
@@ -550,7 +549,7 @@ function setup() {
           centerCircleColors: [color(255, 128, 0), color(255, 255, 255), color(0, 0, 0)],
           centerCircleSizes: [40, 30, 20]
         },
-        //
+        
         {
           x: 310, y: 410, size: 25, color: color(218, 243, 229),
           dotCounts: [0],
@@ -597,7 +596,7 @@ function setup() {
           centerCircleColors: [color(255, 128, 0), color(255, 255, 255), color(0, 0, 0)],
           centerCircleSizes: [40, 30, 20]
         },
-        //
+       
         {
           x: 540, y: 360, size: 25, color: color(218, 243, 229),
           dotCounts: [0],
@@ -1057,7 +1056,7 @@ function drawSmallCircles(smallCircles) {
   }
 }
 
- // 知识点来自7.4: Mouse Interaction with Objects - p5.js Tutorial
+ // Knowledge point from7.4: Mouse Interaction with Objects - p5.js Tutorial
 
 function mousePressed() {
   for (let i = 0; i < circles.length; i++) {
